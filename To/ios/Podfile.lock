@@ -584,7 +584,7 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   hermes-engine:
     :podspec: "../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec"
-    :tag: hermes-2023-03-20-RNv0.72.0-49794cfc7c81fb8f69fd60c3bbf85a7480cc5a77
+    :tag: ''
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -709,4 +709,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: cdbaaf0ee46c95d7d717bd05bee33f4eec4760e8
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
