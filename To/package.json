@@ -1,4 +1,4 @@
-{
+  {
   "name": "To",
   "version": "0.0.1",
   "private": true,
@@ -35,5 +35,5 @@
   },
   "jest": {
     "preset": "react-native"
-  }
-}
+
+
