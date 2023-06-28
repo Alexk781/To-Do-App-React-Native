@@ -1,16 +1,4 @@
 <a name="readme-top"></a>
-
-### Built With
-
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -30,6 +18,13 @@ To install this project make a clone of the files. Git clone: (https://github.co
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### How to Run
+
+<!-- How To Run -->
+open a terminal at the "To" file. Then run: yarn ios
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -40,9 +35,9 @@ The app works offline, allowing users to add, modify, and view tasks even withou
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP -->
+<!-- Issues/Errors -->
 
-## Roadmap
+## Issues/Errors
 
 See the [open issues](https://github.com/Alexk781/To-Do-App-React-Native/issues) to submit issues.
 
@@ -68,25 +63,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- [Alex Keery](Main Contributor)
-- [Dane Brear](Main Contributor)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
