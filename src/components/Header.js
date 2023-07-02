@@ -7,5 +7,20 @@ const Header = (props) => {
     </View>
   );
 };
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#E8EAED",
+  },
+  tasksWrapper: {
+    paddingTop: 70,
+    paddingHorizontal: 30,
+  },
+  sectionTitle: {
+    fontWeight: "bold",
+    fontSize: 30,
+  },
+  items: {},
+});
 
 export default Header;

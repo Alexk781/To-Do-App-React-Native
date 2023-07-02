@@ -1,7 +1,8 @@
 import { View, Text } from "react-native";
 import React from "react";
 import CheckBox from "react-native-check-box";
-  const [isChecked, setIsChekced] = useState(false) => {
+export const CheckSquare = (props) => {
+  const [isChecked, setIsChecked] = useState(false);
   return (
     <View>
       <CheckBox
@@ -11,7 +12,7 @@ import CheckBox from "react-native-check-box";
       />
     </View>
   );
-}
+};
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -27,4 +28,3 @@ const styles = StyleSheet.create({
   },
   items: {},
 });
-export default CheckBox;
