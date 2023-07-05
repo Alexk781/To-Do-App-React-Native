@@ -1,4 +1,4 @@
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import CheckBox from "react-native-check-box";
 export const CheckSquare = (props) => {
