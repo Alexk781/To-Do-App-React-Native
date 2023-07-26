@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-const ToDo = (props) => {
+export const ToDo = (props) => {
   return (
     <View style={styles.item}>
       <View style={styles.itemLeft}>
@@ -30,4 +30,3 @@ const styles = StyleSheet.create({
     maxWidth: "80%",
   },
 });
-export default ToDo;
