@@ -20,11 +20,6 @@ export const MyView = ({ Function1, Function2 }) => {
           </View>
         </View>
       </ScrollView>
-
-      <KeyboardAvoidingView
-        behavior={Platform.OS === "ios" ? "padding" : "height"}
-        style={styles.writeTaskWrapper}
-      >
         <TextInput
           style={styles.input}
           placeholder={"Write Something To Do"}
