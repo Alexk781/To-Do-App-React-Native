@@ -1,25 +1,35 @@
-export const MyView = ({ Function1, Function2 }) => {
+import { ToDo } from "./components/ToDo";
+import {
+  StyleSheet,
+  Text,
+  View,
+  TextInput,
+  TouchableOpacity,
+  ScrollView,
+  KeyboardAvoidingView,
+} from "react-native";
+export const MyView = ({ Function1, Function2, taskItems, task, setTask }) => {
   return (
     <View style={styles.container}>
       <ScrollView
         contentContainerStyle={{
           flexGrow: 1,
         }}
-        keyboardShouldPersistTaps="handled"
       >
         <View style={styles.tasksWrapper}>
           <Text style={styles.sectionTitle}>To Do list</Text>
           <View style={styles.items}>
             {taskItems.map((item, index) => {
               return (
-                <TouchableOpacity key={index} onPress={Function1}>
-                  <Task text={item} />
-                </TouchableOpacity>
+                <ToDo item={item} completeTask={Function1}>
+                  {"."}
+                </ToDo>
               );
             })}
           </View>
         </View>
       </ScrollView>
+      <View style={styles.textInput}>
         <TextInput
           style={styles.input}
           placeholder={"Write Something To Do"}
@@ -31,7 +41,7 @@ export const MyView = ({ Function1, Function2 }) => {
             <Text style={styles.addText}>+</Text>
           </View>
         </TouchableOpacity>
-      </KeyboardAvoidingView>
+      </View>
     </View>
   );
 };
@@ -80,4 +90,9 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   addText: {},
+  textInput: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    marginBottom: 25,
+  },
 });

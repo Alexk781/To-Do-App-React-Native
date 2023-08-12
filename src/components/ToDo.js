@@ -1,13 +1,15 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-export const ToDo = (props) => {
+export const ToDo = ({ completeTask, item }) => {
   return (
-    <View style={styles.item}>
-      <View style={styles.itemLeft}>
-        <Text style={styles.itemText}>{props.text}</Text>
+    <TouchableOpacity onPress={completeTask}>
+      <View style={styles.item}>
+        <View style={styles.itemLeft}>
+          <Text style={styles.itemText}>{item}</Text>
+        </View>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
